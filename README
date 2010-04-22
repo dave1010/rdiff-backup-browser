@@ -1,0 +1,13 @@
+rdiff-backup-browser
+
+(c) Dean Cording (dean@cording.id.au) 
+Based on rdiff-backup-web by: David Evans (goodevans@gmail.com)
+
+rdiff-backup
+(c) 2007 Dale Stirling (rdiffbackupweb@puredistortion.com)
+Useless without rdiff-backup created by Ben Escoto
+
+rdiff-backup-browser is a web-based interface for rdiff-backup designed to greatly simplify backup restoring.
+
+rdiff-backup-browser is free software and is released under the GNU General Public Licence. See licence.txt for details.
+
