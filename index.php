@@ -22,9 +22,10 @@
 // @TODO: remove PHP notices
 // @TODO: clean up CSS and JS
 // @TODO: install wizard and config.ini
-// @TODO: remove finfo_open dependencyá
+// @TODO: remove finfo_open dependency
 // @TODO: show just current level of folders / files in file listing
 // @TODO: show what's changed when or when files have changed
+// @TODO: handle errors from rdiff-backup
 
 
 include("./config.php");
