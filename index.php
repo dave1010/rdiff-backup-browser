@@ -1,4 +1,4 @@
-<?
+<?php
 
 ###################################################################
 #
@@ -18,6 +18,14 @@
 # GNU General Public Licence. See licence.txt for details.
 # 
 ###################################################################
+
+// @TODO: remove PHP notices
+// @TODO: clean up CSS and JS
+// @TODO: install wizard and config.ini
+// @TODO: remove finfo_open dependency
+// @TODO: show just current level of folders / files in file listing
+// @TODO: show what's changed when or when files have changed
+
 
 include("./config.php");
 if($_REQUEST['op']){
@@ -137,7 +145,7 @@ if ($linktofile != "" && $increment !="" && $backup != "") {
           <h3>Backup session:</h3>
           <ul class="vert-one">
 
-<?
+<?php
 
 $rdiff_backup_list = scandir($BACKUP_LOCATION);
 
