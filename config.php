@@ -1,4 +1,4 @@
-<?
+<?php
 
 #####################################################################
 #
@@ -31,9 +31,11 @@
 $RDIFF_BACKUP = "/usr/bin/rdiff-backup -v2 --no-eas";
 $RDIFF_BACKUP_STATISTICS = "/usr/bin/rdiff-backup-statistics";
 // Make sure that all these directory paths end in a /
-$DOWNLOAD_LOCATION = "/var/www/html/tmp/";
 
-$BACKUP_LOCATION="/backup/";
+// TODO: option of having this relative
+$DOWNLOAD_LOCATION = "/var/www/html/projects/dev/rdiff-backup-browser/tmp/";
+
+$BACKUP_LOCATION="/var/backup/www/";
 
 ?>
 
