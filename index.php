@@ -22,35 +22,17 @@
 // @TODO: remove PHP notices
 // @TODO: clean up CSS and JS
 // @TODO: install wizard and config.ini
-// @TODO: remove finfo_open dependency
+// @TODO: remove finfo_open dependencyá
 // @TODO: show just current level of folders / files in file listing
 // @TODO: show what's changed when or when files have changed
 
 
 include("./config.php");
-if($_REQUEST['op']){
-  $op = $_REQUEST['op'];
-} else {
-  $op = "";
-}
 
-if($_REQUEST['backup']){
-  $backup=$_REQUEST['backup'];
-} else {
-  $backup="";
-}
-
-if($_REQUEST['increment']){
-   $increment=$_REQUEST['increment'];
-} else {
-  $increment="";
-}
-
-if($_REQUEST['linktofile']){
-   $linktofile=$_REQUEST['linktofile'];
-} else {
-  $linktofile="";
-}
+$op = 			empty($_REQUEST['op']) ? 			'' : $_REQUEST['op'];
+$backup = 		empty($_REQUEST['backup']) ? 		'' : $_REQUEST['backup'];
+$increment = 	empty($_REQUEST['increment']) ? 	'' : $_REQUEST['increment'];
+$linktofile = 	empty($_REQUEST['linktofile']) ? 	'' : $_REQUEST['linktofile'];
 
 if ($op == "view_log") {
 
